@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- 
+   Author:    Kali Rogers
+   Date:      12.14.2015
+
+   Filename:         recipes.xml
+   Supporting Files: recipes.css, recipes.xsd
+-->
+<?xml-stylesheet type="text/css" href="recipes.css"?>
+
+
+    <rcp:recipe xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+   		xmlns:rcp="http://example.com/kaliskitchen/recipe"
+        xs:schemaLocation="http://example.com/kaliskitchen/recipe recipes.xsd">
+   	
+   	
+      <rcp:itemName>Pizza Dough</rcp:itemName>
+      <rcp:ingredients>
+         <rcp:ingredient>4 cups bread flour</rcp:ingredient>
+         <rcp:ingredient>1 teaspoon sugar</rcp:ingredient>
+         <rcp:ingredient>2 teaspoons kosher salt</rcp:ingredient>
+         <rcp:ingredient> 1 envelope instant dry yeast</rcp:ingredient>
+         <rcp:ingredient>1 1/2 cups water, 110 degrees F</rcp:ingredient>
+         <rcp:ingredient> 2 tablespoons olive oil, plus 2 teaspoons</rcp:ingredient>
+      </rcp:ingredients>
+      <rcp:directions>
+      <![CDATA[Combine the bread flour, sugar, yeast and kosher salt in the bowl of a stand mixer and combine. 
+      	While the mixer is running, add the water and 2 tablespoons of the oil and beat until the dough forms into a ball. 
+      	If the dough is sticky, add additional flour, 1 tablespoon at a time, until the dough comes together in a solid ball. 
+      	If the dough is too dry, add additional water, 1 tablespoon at a time. Scrape the dough onto a lightly floured surface and 
+      	gently knead into a smooth, firm ball.Grease a large bowl with the remaining 2 teaspoons olive oil, add the dough, 
+      	cover the bowl with plastic wrap and put it in a warm area to let it double in size, about 1 hour. Turn the dough out onto
+      	 a lightly floured surface and divide it into 2 equal pieces. Cover each with a clean kitchen towel or plastic wrap and let them rest for 10 minutes.
+      ]]>
+      </rcp:directions>
+  	 
+  	 <rcp:itemName>Pizza Dough</rcp:itemName>
+      <rcp:ingredients>
+         <rcp:ingredient>2 tablespoons olive oil, divided</rcp:ingredient>
+         <rcp:ingredient>1 onion, diced</rcp:ingredient>
+         <rcp:ingredient>1 pound ground beef</rcp:ingredient>
+         <rcp:ingredient>1 pound ground pork</rcp:ingredient>
+         <rcp:ingredient>1/2 cup Panko</rcp:ingredient>
+         <rcp:ingredient>2 large egg yolks</rcp:ingredient>
+         <rcp:ingredient>1/4 teaspoon ground allspice</rcp:ingredient>
+         <rcp:ingredient>1/4 teaspoon ground nutmeg</rcp:ingredient>
+         <rcp:ingredient>Salt and black pepper, to taste</rcp:ingredient>
+      </rcp:ingredients>
+      <rcp:directions>
+      <![CDATA[Heat 1 tablespoon olive oil in a large skillet over medium heat. Add onion, and cook, 
+      	stirring frequently, until onions have become translucent, about 2-3 minutes. In a large bowl, combine ground beef, 
+      	ground pork, Panko, egg yolks, allspice, nutmeg and cooked onion; season with salt and pepper, to taste. Using a wooden 
+      	spoon or clean hands, stir until well combined. Roll the mixture into 1 1/4-to-1 1/2-inch meatballs, forming about 24 meatballs. 
+      	Add remaining 1 tablespoon olive oil to the skillet. Add meatballs, in batches, and cook until all sides are browned, about 4-5 minutes. 
+		Transfer to a paper towel-lined plate.
+      ]]>
+      </rcp:directions>
+  	 
+  	 <rcp:itemName>Swedish Meatballs</rcp:itemName>
+      <rcp:ingredients>
+         <rcp:ingredient>2 tablespoons olive oil, divided</rcp:ingredient>
+         <rcp:ingredient>1 onion, diced</rcp:ingredient>
+         <rcp:ingredient>1 pound ground beef</rcp:ingredient>
+         <rcp:ingredient>1 pound ground pork</rcp:ingredient>
+         <rcp:ingredient>1/2 cup Panko</rcp:ingredient>
+         <rcp:ingredient>2 large egg yolks</rcp:ingredient>
+         <rcp:ingredient>1/4 teaspoon ground allspice</rcp:ingredient>
+         <rcp:ingredient>1/4 teaspoon ground nutmeg</rcp:ingredient>
+         <rcp:ingredient>Salt and black pepper, to taste</rcp:ingredient>
+      </rcp:ingredients>
+      <rcp:directions>
+      <![CDATA[Heat 1 tablespoon olive oil in a large skillet over medium heat. Add onion, and cook, 
+      	stirring frequently, until onions have become translucent, about 2-3 minutes. In a large bowl, combine ground beef, 
+      	ground pork, Panko, egg yolks, allspice, nutmeg and cooked onion; season with salt and pepper, to taste. Using a wooden 
+      	spoon or clean hands, stir until well combined. Roll the mixture into 1 1/4-to-1 1/2-inch meatballs, forming about 24 meatballs. 
+      	Add remaining 1 tablespoon olive oil to the skillet. Add meatballs, in batches, and cook until all sides are browned, about 4-5 minutes. 
+		Transfer to a paper towel-lined plate.
+      ]]>
+      </rcp:directions>
+   
+   
+     <rcp:itemName>Grilled Cheese Rollups</rcp:itemName>
+      <rcp:ingredients>
+         <rcp:ingredient>6 slices of Bread</rcp:ingredient>
+         <rcp:ingredient>6 American Cheese Singles</rcp:ingredient>
+         <rcp:ingredient>1 tbsp Butter</rcp:ingredient>
+      </rcp:ingredients>
+      <rcp:directions>
+      <![CDATA[Roll each slice of bread to flatten. 
+      	Trim crust off of bread.
+      	Place cheese slice on bread and roll up.
+      	Heat skillet over medium low and melt butter.
+      	Place rollups in pan seam side down.
+      	Cook until brown turning frequently throughout cooking.
+      	Serve immediately.
+      ]]>
+      </rcp:directions>
+      
+  	 </rcp:recipe>
+  

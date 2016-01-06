@@ -1,0 +1,22 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://example.com/kaliskitchen/recipe"
+	targetNamespace="http://example.com/kaliskitchen/recipe"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:element name="recipe">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="itemName" type="xs:string"></xs:element>
+			<xs:element name="ingredients">
+				<xs:complexType>
+				<xs:choice>
+					<xs:element name="ingredient" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+				</xs:choice>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="directions" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

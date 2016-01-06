@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      IS 139: Final Project
+      Author: Kali Rogers
+      Date: 10.27.15
+
+      Filename:         reservations.htm
+      Supporting files: kaliskitchen.htm
+
+   -->
+
+      <meta charset="UTF-8" />
+      <title>Kali's Kitchen</title>
+
+      <link href="kkitchen.css" rel="stylesheet" type="text/css" />
+	  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	  <link href='https://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
+	  
+	  <meta charset="UTF-8" />
+	  <title>Reservations</title>
+	  <script src="modernizr-1.5.js"></script>
+	  <script src="formsubmit.js"></script>
+
+   </head>
+
+   <body>
+
+      <header>
+      <img src="images/KKitchenLogo.png" alt="Kali's Kitchen"></img>
+	  </header>
+
+      <nav>
+         <ul>
+            <li><a href="kaliskitchen.htm">Home</a></li>
+            <li><a href="menu.htm">Menus</a></li>
+            <li><a href="reservations.htm">Reservations</a></li>
+         </ul>
+      </nav>
+	  
+	  <div id="#container">
+	  <h1 class="reservations">Reserve a Table</h1>
+	  <form>
+	  <fieldset id="reservations">
+	  
+	  <label for="firstname">First Name*</label>
+	  <input type="text" name="firstname" id="firstname" required />
+	  
+	  <label for="lastname">Last Name*</label>
+	  <input type="text" name="lastname" id="lastname" required />
+	  
+	  <label for="phone">Phone</label>
+	  <input type="text" name="phone" id="phone" />
+	  
+	  <label for="email">Email*</label>
+	  <input type="email" name="email" id="email" required />
+	  
+	  <label for="numParty" class="numParty">Number of Guests*</label>
+	 <!--<input type="number" name="numParty" id="numParty" required min="1" max="25" />-->
+	<select class="numParty" name="numParty" id="numParty" required>
+	<option value="01">01</option>
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		<option value="06">06</option>
+		<option value="07">07</option>
+		<option value="08">08</option>
+		<option value="09">09</option>
+		<option value="10">10</option>
+	 </select> 
+	 
+	  <label for="visitDate">Date of Visit*</label>
+	  <input name="visitDate" id="visitDate" type="date" required>
+	  
+	  <label for="time" class="time">Time*</label>
+	  
+	  <select class="time" name="time" id="time" required>
+		<option value="01">01</option>
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		<option value="06">06</option>
+		<option value="07">07</option>
+		<option value="08">08</option>
+		<option value="09">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+	 </select>
+	 
+	 <select class="time" name="minute" id="minute">
+		<option value="00">00</option>
+		<option value="15">15</option>
+		<option value="30">30</option>
+		<option value="45">45</option>
+	 </select>
+	 
+	 <input type="radio" name="timeOfDay" id="AM" value="AM">
+	 <label for="AM" class="radio">AM</label>
+	 <input type="radio" name="timeOfDay" id="PM" value="PM">
+	 <label for="PM" class="radio">PM</label>
+	 </fieldset>
+	 <br/>
+	  
+	 <input class="submit" type="submit" value="Make a Reservation" />
+	  
+	 </form> 
+	  
+	  </div>
+	  <br />
+	  <footer>
+         <address>
+            123 Main Street, St. Louis, MO 63017  |  Contact Us: 636-123-4567
+         </address>
+      </footer>
+	  
+	  

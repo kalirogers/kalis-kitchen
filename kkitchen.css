@@ -1,0 +1,385 @@
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+header {
+	height: 110px;
+	border-bottom: solid 2px #356276;
+}
+
+header img {
+	display: block;
+	margin: 15px auto 15px auto;
+}
+
+#container {
+	width: 650px;
+	margin: auto;
+}
+
+#container p {
+	font-family: Trebuchet, sans-serif;
+	font-size: 11pt;
+	line-height: 15pt;
+}
+
+
+
+/* Navigation styles */
+
+nav {
+	background-color: #dadada;
+	list-style: none;
+	text-align: center;
+	margin: 0px;
+	border-bottom: solid 2px #356276;
+}
+
+nav ul {
+	height: 30px;
+	margin: 0px;
+	padding-top: 8px;
+	
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin: auto;
+}
+
+nav a:link, a:visited {
+	text-align: center;
+	text-decoration: none;
+	font-family: Montserrat, Arial, sans-serif;
+	color: #881d2c;
+	padding: 0 30px;
+	
+}
+
+nav a:hover, a:active {
+	text-decoration: underline;
+}
+
+/* Homepage Welcome Box with Image */
+
+#welcome {
+	float: left;
+	width: 650px;
+	border: solid 1px black;
+	margin: 20px auto 20px auto;
+}
+
+#welcome div {
+	float: left;
+	width: 210px;
+}
+
+#welcome img {
+	float: right;
+	width: 420px;
+	border-left: solid 1px black;
+}
+
+#welcome h1 {
+	font-family: 'Clicker Script', cursive;
+	font-size: 30pt;
+	color: #881d2c;
+	margin: 0px;
+	padding: 10px 0px 0px 10px;
+}
+
+#welcome p {
+	padding-left: 10px;
+}
+
+/* Homepage Visit Us Box with javascript */
+
+#visit {
+	display: block;
+	float: left;
+	width: 310px;
+	height: 200px;
+	margin: auto;
+	border: solid 1px black;	
+}
+
+#visit h1 {
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	background-color: #356276;
+	margin: 0px;
+}
+
+#visit p {
+	padding-left: 10px;
+}
+
+/* Homepage Reservation box, linked to form */
+
+#reservation {
+	float: right;
+	width: 310px;
+	height: 200px;
+	margin: auto;
+	border: solid 1px black;
+}
+
+#reservation h1 {
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	background-color: #356276;
+	margin: 0px;
+}
+
+#reservation p {
+	padding-left: 10px;
+}
+
+/* Menu page - all availabl Menus */
+
+
+#menu {
+	width: 650px;
+	margin: 40px auto 20px auto;
+	text-align: left;
+}
+
+#menu img {
+	clear: left;
+	float: left;
+	width: 200px;
+	border: 2px solid #356276;
+	margin-bottom: 50px;
+}
+
+#menu h1 {
+	font-family: 'Clicker Script', cursive;
+	font-size: 30pt;
+	color: #881d2c;
+	margin: 0px;
+	padding: 0px;
+}
+
+#text {
+	float: left;
+	width: 60%;
+	margin-left: 50px;
+}
+
+
+/* Specific Menu Item Pages (Pizzas, Sandwiches and Kids) */
+
+#menuContainer {
+	width: 800px;
+	margin: auto;
+	
+}
+
+table.menuItem {
+	width: 500px;
+	float: left;
+	margin: 0px, 20px, 20px, 20px;
+}
+
+h1.menuItem {
+	font-family: 'Clicker Script', cursive;
+	font-size: 36pt;
+	color: #881d2c;
+	margin-top: 30px;
+	text-align: center;
+}
+
+h2.menuItem {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 11pt;
+	color: #881d2c;
+	
+}
+
+img.menuItem {
+	width: 150px;
+	border: 1px solid #356276;
+	vertical-align: top;
+}
+td.description {
+	width: 250px;
+	font-family: Trebuchet, sans-serif;
+	font-size: 11pt;
+	line-height: 15pt;
+	padding-left: 20px;
+}
+td.price {
+	width: 100px;
+	vertical-align: top;
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 11pt;
+	color: #881d2c;
+	padding-left: 10px;
+}
+
+
+aside {
+	width: 250px;
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #356276;
+}
+
+aside h1 {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 15pt;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	background-color: #356276;
+	margin: 0px;
+}
+
+aside h2 {
+	font-family: Trebuchet, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 12pt;
+	padding: 10px;
+	color: #881d2c;
+}
+
+aside li {
+	font-family: Trebuchet, sans-serif;
+	font-size: 9pt;
+	line-height: 12pt;
+}
+
+aside p {
+	font-family: Trebuchet, sans-serif;
+	font-size: 9pt;
+	padding: 10px;
+}
+
+
+/* Reversation Form Styles */
+
+fieldset {
+	margin: 30px auto 10px auto;
+	width: 500px;
+	border: 0px;
+}
+
+h1.reservations {
+	font-family: 'Clicker Script', cursive;
+	font-size: 30pt;
+	color: #881d2c;
+	border-bottom: 2px solid #dadada;
+	width: 650px;
+	margin: 20px auto 10px auto;
+	text-align: center;
+	
+}
+
+label {
+	float: left;
+	font-size: 11pt;
+	font-family: Trebuchet, sans-serif;
+	font-size: 11pt;
+	margin-right: 10px;
+	vertical-align: bottom;
+	clear: both;
+}
+
+input[type=text] {
+	float: right;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 20px;
+}
+
+input[type=date] {
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	height: 20px;
+}
+
+input[type=number] {
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 20px;
+	height: 20px;
+}
+
+input[type=email] {
+	float: right;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 20px;
+}
+
+select.numParty {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+select.time {
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+label.time {
+	margin-right: 105px;
+}
+
+input[type="radio"] {
+	float: left;
+	display: inline;
+	clear: none;	
+}
+
+label.radio {
+	float: left;
+	display: inline;
+	clear: none;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 10px auto 0px auto;
+	color: #356276;
+	width: 200px;
+	height: 40px;
+}
+
+input[type="submit"]:hover {
+	background-color: #356276;
+	color: white;
+}
+
+ 
+
+
+/* Footer */ 
+
+
+footer {
+	clear: both;
+	float: left;
+	width: 100%;
+	border-top: solid 2px #356276;
+	margin-top: 20px;
+}
+
+address {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 10pt;
+	font-style: none;
+	color: #881d2c; 
+	text-align: center;
+	margin: 20px auto 20px auto;
+}

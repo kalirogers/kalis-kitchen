@@ -1,0 +1,32 @@
+/*
+
+   
+   Author:    Kali Rogers
+   Date:      11.28.15
+   
+   Filename: recipe.css
+
+   This file contains styles used in the menurecipe.xml file.
+*/
+@namespace rcp "http://example.com/kaliskitchen/recipe";
+
+rcp|recipe {
+   display: block;
+   margin-left: 20px;
+   margin-top: 20px;
+   border: 1px solid #356276;
+   background: #dadada;
+   padding: 10px;
+}
+itemName {
+   display: none;
+}
+ingredient {
+   display: block;
+   color: black;
+}
+directions {
+   display: block;
+   color: black;
+   margin-top: 10px;
+}
